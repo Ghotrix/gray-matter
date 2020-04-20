@@ -1,0 +1,43 @@
+#summary Mission statement, goals, and quotes.
+#labels Featured,Phase-Requirements
+[http://gray-matter.googlecode.com/svn/trunk/doc/credits The Gray Matter Team]'s mission is to develop a competitive, pedagogical chess engine.  And most importantly, to have [http://www.oreillynet.com/onlamp/blog/2005/10/ofun.html fun] while doing it!
+
+===Short Term Goals (for the Next Month)===
+  * To nurture a community of hackers and chess players by:
+    * ~~Cleaning up and commenting code, authoring [http://code.google.com/p/gray-matter/w/list documentation], maintaining a [http://chess-engine.blogspot.com/ blog],~~
+    * ~~Automating [http://tim-mann.org/ics.html ICS] play,~~
+    * Setting up a testing box to run on [http://www.freechess.org/ FICS]~~, and~~
+    * ~~Making friends.~~
+  * ~~To generate/accept all/only legal moves (including en passant and castling!) and correctly detect checkmate/stalemate.~~
+  * To implement Crafty's heuristic evaluator.
+  * To ~~adopt a version numbering standard and~~ provide builds.
+  * To earn a rating.
+
+===Mid Term Goals (for the Next Year)===
+  * To design and implement ~~[http://www.cs.vu.nl/~aske/mtdf.html MTD(f)], strong pondering,~~ null-move pruning, and quiescence search.
+  * ~~To provide evidence for correctness of search.~~
+  * ~~To design and implement an opening book.~~
+  * ~~For the engine to regularly checkmate its hackers.~~
+  * To earn a respectable rating.
+  * To identify a potential market and come up with a business plan.
+
+===Long Term Goals (for the Project's Lifetime)===
+  * To parallelize the move search.
+  * To earn a master-level rating.
+
+=Quotes=
+This section contains quotes about Gray Matter and her hackers.
+
+  * Smack my bishop! - Prodigy
+
+  * I really like the simplicity.  Nice coding.  Easy to follow and understand from the get go.  Excellent work! - Joshua Haglund
+
+  * Thank you very much for having created Gray Matter - I'm trying to create a basic chess engine to communicate with [http://www.tim-mann.org/xboard.html XBoard], and your code provided valuable insight! - Christian Korn
+
+  * I had no problems compiling and playing it on my Linux box.  It's awesome! - Kyle Fitch
+
+  * Thanks!  In fact, your implementation caught some bugs in my pseudocode for ttables that we're now "hashing out", as it were, on our course email list.  So thanks much! - [http://web.cecs.pdx.edu/~bart/ Bart Massey], Assoc. Prof. Computer Science, Portland State University
+
+  * Well done on writing your chess engine.  I have already downloaded it and played with it a little bit - very nice. - [http://homepages.tesco.net/henry.ablett/jims.html Jim Ablett]
+
+  * And I believe / That maybe today / We will all get to appreciate / The Beauty of Gray - Live

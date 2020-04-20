@@ -1,0 +1,34 @@
+#==============================================================================#
+#	CYGmakefile							       #
+#									       #
+#	Copyright © 2005-2008, The Gray Matter Team, original authors.	       #
+#==============================================================================#
+
+CXX  = g++
+LANG = -ansi
+WARN = -Wall -Werror
+OPTI = -O3 -fomit-frame-pointer
+PREP = -DWINDOWS
+DIR  = -Iinc
+
+OBJS = bin/board_base.o      \
+       bin/board_heuristic.o \
+       bin/book.o            \
+       bin/clock.o           \
+       bin/library.o         \
+       bin/main.o            \
+       bin/search_base.o     \
+       bin/search_mtdf.o     \
+       bin/table.o           \
+       bin/xboard.o
+
+all : bin/gray.exe
+
+clean :
+	rm -f $(OBJS) bin/gray
+
+bin/%.o : src/%.cpp
+	$(CXX) -c -o $@ $< $(LANG) $(WARN) $(OPTI) $(PREP) $(DIR)
+
+bin/gray.exe : $(OBJS)
+	$(CXX) -o $@ $(LANG) $(WARN) $(OPTI) $(PREP) $(DIR) $(OBJS)

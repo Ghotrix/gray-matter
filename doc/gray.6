@@ -1,0 +1,46 @@
+.\" ---------------------------------------------------------------------------
+.\"	gray.6
+.\"
+.\"	Copyright © 2005-2008, The Gray Matter Team, original authors.
+.\" ---------------------------------------------------------------------------
+.\"	Process this file with:
+.\"		man ./gray.6
+.\"	Or, if that doesn't work:
+.\"		groff -man -Tascii gray.6|less
+.\" ---------------------------------------------------------------------------
+.Dd Jan 1, 2008
+.Os POSIX
+.Dt GRAY 6
+.\" ---------------------------------------------------------------------------
+.Sh NAME
+.Nm gray
+.Nd Gray Matter, a chess engine
+.\" ---------------------------------------------------------------------------
+.Sh SYNOPSIS
+.Nm xboard -fcp gray
+.\" ---------------------------------------------------------------------------
+.Sh DESCRIPTION
+.Nm Gray Matter
+is a chess engine; it can play a game of chess.  It isn't very strong but is a
+good learning and teaching tool.  Its authors aim to write readable,
+understandable, and hackable code.  It's written in C++ and employs good
+object-oriented practices.  It uses some state-of-the-art techniques such as an
+MTD(f) move search and rotated bitboards.
+.Pp
+Gray Matter doesn't have its own interface.  However, it conforms to the Chess
+Engine Communication Protocol and runs under XBoard.
+.Pp
+Maintaining a rating of 1200 while weighing in at a svelte 3000 lines of code,
+Gray Matter offers a nice bang to buck ratio.  That's probably why adoring fans
+affectionately refer to it as The Little Engine that Could.
+.\" ---------------------------------------------------------------------------
+.Sh SEE ALSO
+.Xr xboard 6
+.\" ---------------------------------------------------------------------------
+.Sh LEGAL
+Copyright (C) 2005-2008, The Gray Matter Team, original authors.
+.Pp
+Permission is granted to copy, distribute, and/or modify this document under
+the terms of the GNU Free Documentation License, version 1.1 or any later
+version published by the Free Software Foundation; with no Invariant Sections,
+no Front-Cover Texts, and no Back-Cover Texts.

@@ -1,0 +1,38 @@
+
+Read these instructions before disregarding them.
+To install Gray Matter on Linux:
+
+--------------------------------------------------------------------------------
+
+Extract:
+	· Type: tar xfvz gray-matter.tar.gz
+	· Type: cd gray-matter/
+
+--------------------------------------------------------------------------------
+
+Configure:
+	· Edit: inc/config.h
+	· This should be self-explanatory.  If it isn't, just skip it.
+
+--------------------------------------------------------------------------------
+
+Compile:
+	· Type: make clean
+	· Type: make
+
+--------------------------------------------------------------------------------
+
+Run:
+	· Type: xboard -fcp bin/gray
+
+--------------------------------------------------------------------------------
+
+If something goes wrong, report your issue [1] or email any member of The Gray
+Matter Team [2].  We'll reply as quickly as we can.
+
+[1] The issue list is at: http://code.google.com/p/gray-matter/issues/list
+[2] Email addresses are provided in: doc/credits
+
+Happy hacking!  :-)
+The Gray Matter Team
+
